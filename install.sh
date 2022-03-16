@@ -1,20 +1,24 @@
 # install nix
-$ sh <(curl -L https://nixos.org/nix/install) --no-daemon
+curl -L https://nixos.org/nix/install | sh
 
 # source nix
 . ~/.nix-profile/etc/profile.d/nix.sh
 
 # install packages
 nix-env -iA \
-        nixpkgs.antibody \
-        nixpkgs.neovim \
-        nixpkgs.tmux \
-        nixpkgs.stow \
-        nixpkgs.yarn \
-        nixpkgs.fzf \
-        nixpkgs.ripgrep \
-        nixpkgs.bat \
-        nixpkgs.direnv
+	nixpkgs.zsh \
+	nixpkgs.antibody \
+	nixpkgs.git \
+	nixpkgs.neovim \
+	nixpkgs.tmux \
+	nixpkgs.stow \
+	nixpkgs.yarn \
+	nixpkgs.fzf \
+	nixpkgs.ripgrep \
+	nixpkgs.bat \
+	nixpkgs.gnumake \
+	nixpkgs.gcc \
+	nixpkgs.direnv
 
 # stow
 stow git
