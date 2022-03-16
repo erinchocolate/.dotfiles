@@ -14,7 +14,7 @@ alias cat='bat'
 alias vimrc='vim ${HOME}/.config/nvim/init.vim'
 
 # use nix
-if [ -e /home/meiqiao/.nix-profile/etc/profile.d/nix.sh ]; then . /home/meiqiao/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
 
 # source plugins
 source ~/.zsh_plugins.sh
