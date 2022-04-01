@@ -1,6 +1,6 @@
 ## After Installation, You Need To
-- Install pip3, and do pip3 install --user pynvim
-- Install node, and do npm install -g neovim
+- Install pip3, and do `pip3 install --user pynvim`
+- Install node, and do `npm install -g neovim`
 
 ## Keyboard Shortcuts
 ### Basic Editor Features
