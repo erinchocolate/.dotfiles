@@ -268,9 +268,6 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'RRethy/vim-illuminate'
 
-" Status line
-Plug 'erinchocolate/eleline.vim'
-
 " Class/module browser
 Plug 'majutsushi/tagbar'
 Plug 'liuchengxu/vista.vim'
